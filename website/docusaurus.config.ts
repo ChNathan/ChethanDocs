@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://chetj.github.io',
+  url: 'https://chnathan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ChethanSite/',
+  baseUrl: '/ChethanDocs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
