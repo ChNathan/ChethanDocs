@@ -75,19 +75,31 @@ const config: Config = {
     navbar: {
       title: "Chethan's Portfolio",
       logo: {
-        alt: 'Site Logo',
+        alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'projectsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Projects',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'travelSidebar',
+          position: 'left',
+          label: 'Travel',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'mumblesSidebar',
+          position: 'left',
+          label: 'Mumbles',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ChNathan/ChethanDocs',
           label: 'GitHub',
           position: 'right',
         },
